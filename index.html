@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Valentine's Day</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Happy Valentine's Day, My Love! ❤️</h1>
+        <p>You make every moment special and magical!</p>
+        <button onclick="showSurprise()">Click for a Surprise</button>
+
+        <!-- Love Letter -->
+        <div id="loveLetter" class="hidden">
+            <div class="letter-content">
+                <p id="letterText"></p>
+            </div>
+        </div>
+
+        <audio id="song" src="love.mp3"></audio>
+    </div>
+
+    <!-- Background Hearts Animation -->
+    <canvas id="heartCanvas"></canvas>
+    <canvas id="fireworksCanvas"></canvas>
+
+    <script src="script.js"></script>
+</body>
+</html>
